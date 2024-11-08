@@ -9,12 +9,5 @@ jobs:
   test-runner:
     runs-on: self-hosted
     steps:
-      - name: Check out code
-        uses: actions/checkout@v2
-
-      - name: Print Hello World
-        run: echo "Hello from the self-hosted runner!"
-
-      - name: List files in the repository
-        run: ls -la
-#123456
+      - name: Delay for 120 seconds
+        run: sleep 120
