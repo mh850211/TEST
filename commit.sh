@@ -6,8 +6,8 @@ do
    echo "Test commit $i" >> test_file.txt  # 將測試內容追加到文件中
    git add test_file.txt
    git commit -m "Test commit $i"
+   git push origin master
 done
 
-# 一次性推送所有 commit
-git push origin master
+
 
